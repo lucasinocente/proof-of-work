@@ -1,8 +1,16 @@
-# Proof Of Work Example
+# Exemplo de Prova de Trabalho
 
-## To run
+## Instalar
 
-`node index.js <infotobecrypto>`
+`npm install`
+
+## Provar o trabalho
+
+`node index.js <data>`
+
+## Validar
+
+`node valid.js <data> <nonce>`
 
 --
 

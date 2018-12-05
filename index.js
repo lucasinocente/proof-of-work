@@ -18,7 +18,7 @@ function work(input) {
 
         console.log(`Nonce: ${nonce} -  Hash: ${hash}`);
 
-        if (hash.slice(-5) === '00000') {
+        if (hash.slice(-4) === '0000') {
             console.timeEnd('Time to find');
             return;
         } else {
